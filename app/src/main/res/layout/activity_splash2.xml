@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash_2"
+    tools:context=".activities.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/splashimage"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash_screen_brown" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:contentDescription="@string/splashimage"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash_welcome" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="251dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="600dp"
+        android:contentDescription="@string/splashimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26"
+        app:srcCompat="@drawable/splash_medictime" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="92dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="400dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/splashimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        app:srcCompat="@drawable/splash_graph" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="400dp"
+        android:layout_marginTop="52dp"
+        android:contentDescription="@string/splashimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        app:srcCompat="@drawable/splash_pressure" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="66dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="400dp"
+        android:layout_marginTop="96dp"
+        android:contentDescription="@string/splashimage"
+        app:layout_constraintEnd_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        app:srcCompat="@drawable/splash_alarm" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="65dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="492dp"
+        android:contentDescription="@string/splashimage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash_logo" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="56dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="700dp"
+        android:contentDescription="@string/splashimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/splash_tablets" />
+</android.support.constraint.ConstraintLayout>

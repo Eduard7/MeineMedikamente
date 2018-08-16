@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/einnahme_bck2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".activities.MedikamentEinnahme"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/datum_heute"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:alpha="0.7"
+        android:background="@drawable/action_weiter_button"
+        android:fontFamily="@font/muli_extralight"
+
+        android:gravity="center_vertical"
+        android:paddingEnd="2sp"
+        android:paddingStart="2sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="23.04.2018" />
+
+    <TextView
+        android:id="@+id/medikamentlabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:fontFamily="@font/open_sans"
+        android:text="PARACETAMOL 250mg"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="PARACETAMOL 250mg" />
+
+    <ToggleButton
+        android:id="@+id/toggle1"
+        style="@style/toogle_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/toogle_button_style"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/background_light"
+        android:textOff="@string/man"
+        android:textOn="@string/man"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/toggle2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentlabel"
+        tools:text="M" />
+
+    <ToggleButton
+        android:id="@+id/toggle7"
+        style="@style/toogle_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1100dp"
+        android:background="@drawable/toogle_button_style"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/background_light"
+        android:textOff="@string/son"
+        android:textOn="@string/son"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/toggle6"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentlabel" />
+
+    <ToggleButton
+        android:id="@+id/toggle6"
+        style="@style/toogle_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1000dp"
+        android:background="@drawable/toogle_button_style"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/background_light"
+        android:textOff="@string/sam"
+        android:textOn="@string/sam"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/toggle7"
+        app:layout_constraintStart_toEndOf="@+id/toggle5"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentlabel" />
+
+    <ToggleButton
+        android:id="@+id/toggle4"
+        style="@style/toogle_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="800dp"
+        android:background="@drawable/toogle_button_style"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/background_light"
+        android:textOff="@string/don"
+        android:textOn="@string/don"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/toggle5"
+        app:layout_constraintStart_toEndOf="@+id/toggle3"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentlabel" />
+
+    <ToggleButton
+        android:id="@+id/toggle5"
+        style="@style/toogle_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="900dp"
+        android:background="@drawable/toogle_button_style"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/background_light"
+        android:textOff="@string/fre"
+        android:textOn="@string/fre"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/toggle6"
+        app:layout_constraintStart_toEndOf="@+id/toggle4"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentlabel" />
+
+    <ToggleButton
+        android:id="@+id/toggle2"
+        style="@style/toogle_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/toogle_button_style"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/background_light"
+        android:textOff="@string/die"
+        android:textOn="@string/die"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/toggle3"
+        app:layout_constraintStart_toEndOf="@+id/toggle1"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentlabel" />
+
+    <ToggleButton
+        android:id="@+id/toggle3"
+        style="@style/toogle_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/toogle_button_style"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@android:color/transparent"
+        android:textColor="@android:color/background_light"
+        android:textOff="@string/mit"
+        android:textOn="@string/mit"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/toggle4"
+        app:layout_constraintStart_toEndOf="@+id/toggle2"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentlabel" />
+
+    <TextView
+        android:id="@+id/dosierungLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/gruppo"
+        android:gravity="center_vertical"
+        android:text="Dosierung 1x 3x tgl"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/einnahmeLabel"
+        tools:text="Dosierung 1x 3x tgl" />
+
+    <TextView
+        android:id="@+id/vmalabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center_vertical"
+        android:text="Vormittag"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dosierungLabel"
+        tools:text="Vormittag" />
+
+    <Button
+        android:id="@+id/button_bestaetning"
+        style="@style/drop_shadow"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/muli_extralight"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/datum_heute"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/einnahmeLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gruppo"
+        android:text="tabletteNummer"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggle4" />
+
+    <Button
+        android:id="@+id/button_delte"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/button_alarm"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewWecker2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewWecker2" />
+
+    <ImageView
+        android:id="@+id/imageViewWecker2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/die"
+        app:layout_constraintBottom_toTopOf="@+id/button_missed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vmalabelText"
+        app:srcCompat="@drawable/ic_alarm_off_black_24dp" />
+
+    <Button
+        android:id="@+id/button_missed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/button_bestaetning"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/gruppo"
+        android:text="@string/calendarbutton"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_missed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textblink"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ellipsize="marquee"
+        android:fontFamily="@font/gruppo"
+        android:text="@string/bestattigen1"
+        android:textColor="#4aef0e"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_bestaetning"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_missed"
+        app:layout_constraintEnd_toEndOf="@+id/button_missed"
+        app:srcCompat="@drawable/round_calendar_ask_icon" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/button_bestaetning"
+        app:layout_constraintTop_toBottomOf="@+id/button_missed"
+        app:srcCompat="@drawable/round_ok_icon" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button_delte"
+        app:layout_constraintTop_toTopOf="@+id/button_delte"
+        app:srcCompat="@drawable/round_delete_icon" />
+
+</android.support.constraint.ConstraintLayout>

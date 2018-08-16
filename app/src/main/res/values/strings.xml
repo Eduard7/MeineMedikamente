@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyATJpCCzejmceBPPHSwgmInC6cSUjV4SBE</string>
+
+    <string name="app_name">VitalForYou©</string>
+    <string name="taglich">How many times a day?</string>
+    <string name="med_zapf">Suppository</string>
+    <string name="weiter">Back</string>
+    <string name="zum">to</string>
+    <string name="translate">Welcome to VitalForYou</string>
+    <string name="weckerein">Alarm clock :</string>
+    <string name="fruh">Morning</string>
+    <string name="used_medikament">Medications in use</string>
+    <string name="vor">before</string>
+    <string name="med_tropf">Drops</string>
+    <string name="med_pille">Tablets</string>
+    <string name="alarmzeitstunde">Hours 0..24</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="med_sonst">Medicine&#8230;</string>
+    <string name="son">Su</string>
+
+    <string name="med_sirup">Syrup</string>
+    <string name="youclicket">You pushed</string>
+    <string name="schliesen">Close</string>
+    <string name="med_salbe">Ointment</string>
+    <string name="sam">Sa</string>
+    <string name="med_puder">Powder</string>
+    <string name="neues">Add new drug</string>
+    <string name="nacht">Night</string>
+    <string name="sortbyname">"Sort by NAME "</string>
+    <string name="sortbydate">Sort by DATE</string>
+    <string name="adlib">at will</string>
+    <string name="nach">after</string>
+    <string name="man">Mo</string>
+    <string name="mittag">Noon</string>
+    <string name="alarmzeitminutted">Minutes 0..59</string>
+    <string name="mit">We</string>
+    <string name="med_mix">Medicine juice</string>
+    <string name="ubersicht">Drug directory</string>
+    <string name="einnahmebestatigung">Confirm intake</string>
+    <string name="med_losung">Solution</string>
+    <string name="einnahme">"Last intake "</string>
+    <string name="med_kaps">Capsule</string>
+    <string name="alarmupdate">Update now</string>
+    <string name="med_sprize">Injection</string>
+    <string name="med_inhal">Inhaler</string>
+    <string name="bestattigen2">here</string>
+    <string name="med_granulat">Granules</string>
+    <string name="fre">Fr</string>
+    <string name="med_emulsion">Emulsion</string>
+    <string name="mahlzeit">Intake to the meal?</string>
+    <string name="logubersicht">Overview</string>
+    <string name="used_list">Intake Table</string>
+    <string name="med_einheter">Units</string>
+    <string name="med_einhet">Unit</string>
+    <string name="eingenommen">Medicine taken:</string>
+    <string name="dosierung">Simplified information</string>
+    <string name="dosierung2">Extended information</string>
+    <string name="don">Th</string>
+    <string name="radio6">6x</string>
+    <string name="radio5">5x</string>
+    <string name="radio4">4x</string>
+    <string name="radio3">3x</string>
+    <string name="radio2">2x</string>
+    <string name="radio1">1x</string>
+    <string name="abend">Afternoon</string>
+    <string name="ablaufdatum">Expiry Date</string>
+    <string name="med_apullen">Ampoules</string>
+    <string name="bestattigen1">Please confirm take nr.</string>
+    <string name="datum">Date</string>
+    <string name="dobbel_click">Please tap to see the history!</string>
+    <string name="copyright">Copyright: VitalForYou - Eduard Kempinger - Austria 2018</string>
+    <string name="die">Tu</string>
+    <string name="medikamenttext_hint">Droug name</string>
+    <string name="lagre">Save</string>
+    <string name="save_toast">Please enter a drug name!</string>
+    <string name="save_achtung_toast_01">CAREFULLY!</string>
+    <string name="save_achtung_toast_02">Store this drug?</string>
+    <string name="save_achtung_toast_03">Yes, save!</string>
+    <string name="save_achtung_toast_04">No, do not save</string>
+    <string name="save_achtung_toast_05">"Your answer</string>
+    <string name="main_achtung_toast_01">Please press </string>
+    <string name="main_achtung_toast_02">Close this app?</string>
+    <string name="main_achtung_toast_00">Exit</string>
+    <string name="main_achtung_toast_09">Unfortunately, the trial period has expired!</string>
+    <string name="main_achtung_toast_08">You can download the full version from the Google Play store!</string>
+
+
+    <string name="einnahme_achtung_toast_01">Please switch off the alarm time on the mobile phone!</string>
+    <string name="einnahme_achtung_toast_02t">ATTENTION: Registration of the intake for this drug will also be deleted!!</string>
+    <string name="einnahme_achtung_toast_03">Yes, delete!</string>
+    <string name="einnahme_achtung_toast_04">No, do not delete!</string>
+    <string name="einnahme_achtung_toast_05">"Confirm intake for "</string>
+    <string name="einnahme_achtung_toast_07">Yes, update!</string>
+    <string name="einnahme_achtung_toast_08">No, do not update!</string>
+    <string name="einnahme_achtung_toast_09">Alarm SWITCHED OFF!</string>
+    <string name="einnahme_achtung_toast_10">Alarm SWITCHED ON!!</string>
+    <string name="einnahme_button_01"> DELETE?</string>
+    <string name="about_01">Short description</string>
+    <string name="about_02">This app will help you take prescribed medication in time.</string>
+    <string name="about_03">Note for alarm clock: You can also manually change the alarm settings</string>
+    <string name="tgl">daily</string>
+    <string name="dosis">Dosis</string>
+    <string name="puiverlwecker">MedicWecker 🕓</string>
+    <string name="man2">Mon</string>
+    <string name="die2">Tue</string>
+    <string name="mit2">Wed</string>
+    <string name="don2">Thu</string>
+    <string name="fre2">Fri</string>xw
+    <string name="sam2">Sat</string>
+    <string name="son2">Sun</string>
+
+    <string name="yes_finish">Yes, Exit</string>
+    <string name="no_finish">No</string>
+    <string name="feiluhrzeit02">Hour is switched to 9 o\'clock</string>
+    <string name="feiluhrzeit01">Minutes are switched to 30 minutes</string>
+    <string name="plaster">Adhesive plaster</string>
+    <string name="wochentlich">weekly</string>
+    <string name="monatlich">monthly</string>
+    <string name="oppstartlabel">Startup: </string>
+    <string name="hour24">24h</string>
+    <string name="reset">reset</string>
+    <string name="weckeraus">without alarm</string>
+    <string name="hourampm">12h</string>
+    <string name="daysago">day</string>
+    <string name="weeksago">week</string>
+    <string name="monhtsago">month(s)</string>
+    <string name="yearsago">year(s)</string>
+    <string name="today">today</string>
+    <string name="wrongdate">*date altered*</string>
+
+    <string name="star">*</string>
+    <string name="strek">-</string>
+    <string name="select_time">Set Alarm!</string>
+    <string name="dagnavn1">Ma</string>
+    <string name="dagnavn2">Tu</string>
+    <string name="dagnavn3">We</string>
+    <string name="dagnavn4">Th</string>
+    <string name="dagnavn5">Fr</string>
+    <string name="dagnavn6">Sa</string>
+    <string name="dagnavn7">Su</string>
+    <string name="sys">SYS. max 250 </string>
+    <string name="dia">DIA. max 150 </string>
+    <string name="puls">PLS. max 300 </string>
+    <string name="syst">SYS.</string>
+    <string name="diat">DIA.</string>
+    <string name="pulst">PLS.</string>
+    <string name="blutdrukk">Blood pressure measurements</string>
+    <string name="delete_pressuer">Delete marked entries?</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="age">Age</string>
+    <string name="ageAsterix">Age¹</string>
+    <string name="enterage">Please enter age and gender!</string>
+    <string name="sextypeW">Woman</string>
+
+    <string name="sextypeM">Man</string>
+    <string name="hintage">your age please!</string>
+    <string name="avg">avg</string>
+    <string name="minimum">-min-</string>
+    <string name="maximum">-max-</string>
+
+
+    <!-- chart labels -->
+    <string name="chartLableDia">Diastolic</string>
+    <string name="chartLableSys">Systolic</string>
+    <string name="chartLablePuls">Pulse</string>
+    <string name="noselection">Nothing selected!</string>
+    <string name="uhrzeit">Time</string>
+    <string name="color_button">Background color</string>
+    <string name="color1">Color 1</string>
+    <string name="quantity">Package contents </string>
+    <string name="remaining">left</string>
+    <string name="off">off</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="email">Email</string>
+    <string name="subject">Subject</string>
+    <string name="bodyheading">"Your blood pressure measurements history!</string>
+    <string name="send">Send</string>
+    <string name="dateAndTime">Date and Time</string>
+    <string name="line">Meas.</string>
+    <string name="periode">Periode</string>
+    <string name="from">From</string>
+    <string name="to">to</string>
+    <string name="norwaynumbers">¹ Based on the Health Survey in Norway, Nord-Trøndelag 1995/1997</string>
+    <string name="indicator">Attention: This is not necessarily the correct norm for you!</string>
+    <string name="set20">20</string>
+    <string name="set12">12</string>
+    <string name="set80">89</string>
+    <string name="set140">140</string>
+    <string name="set120">120</string>
+    <string name="set0">0</string>
+
+    <string name="set60">60</string>
+
+    <string name="grpahtitel">Blood pressure graph</string>
+    <string name="touch">Touch a point!</string>
+    <string name="calendarinfo1">Medication taken!</string>
+    <string name="calendarinfo2">Start date of medication!</string>
+    <string name="calendarbutton">Skipped a few days?</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="redball">🔴</string>
+    <string name="whiteball">⚪️</string>
+    <string name="splashimage">splashimage</string>
+    <string name="choose_time">Choose time..</string>
+    <string name="success">Success!</string>
+    <string name="median">Median</string>
+    <string name="password_hint">minimum 6 chars</string>
+    <string name="username">User name</string>
+    <string name="register">Add new user</string>
+    <string name="facebook_app_id">913468042173448</string>
+    <string name="fb_login_protocol_scheme">fb913468042173448</string>
+    <string name="daysleft">days before the free trial ends!</string>
+    <string name="trialactivated">Trial activated!</string>
+    <string name="pressure_person">Person</string>
+    <string name="mostly">Mostly</string>
+    <string name="lowest_at">Lowest</string>
+    <string name="highest_at">Highest</string>
+    <string name="submit">Confirm</string>
+    <string name="clear">Clear input</string>
+    <string name="dosage_pr_day">Number of dosages</string>
+    <string name="normal_label">Within the norm</string>
+    <string name="over_label">Outside the norm</string>
+    <string name="number_of_emasurements">Number of measurements</string>
+    <string name="result_so_far">Results so far¹</string>
+    <string name="disclaimer">Disclaimer</string>
+
+
+</resources>
+
+

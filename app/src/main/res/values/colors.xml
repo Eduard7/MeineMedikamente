@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673ab7</color>
+    <color name="colorPrimaryDark">#676768</color>
+    <color name="colorAccent">#cacccf</color>
+    <color name="paracetamol">#7c0a15</color>
+    <color name="recycler_color">#8fa0b3</color>
+    <color name="textwhite">#ffffff</color>
+    <color name="toogelbutton_color">#3d07ec</color>
+    <color name="action_button_color">#a2c0f9b0</color>
+    <color name="text_view_color">#f9f2bc</color>
+    <color name="action_close_color">#64d0c4ad</color>
+    <color name="action_weiter_color">#d2ffffff</color>
+    <color name="green_color">#00ff00</color>
+    <color name="trans">#00667788</color>
+    <color name="abc_select">#cfc2ebfd</color>
+    <color name="gray_color">#888888</color>
+    <color name="recycler_bckgrnd">#d6c6ae</color>
+    <color name="blu_gray">#0d466e</color>
+    <color name="felles_backgrunn">@color/changedbackgroundcolor</color>
+    <color name="felles_backgrunn2">#5f1884</color>
+    <color name="dayindikator">#2c54a5</color>
+    <color name="pressure_recycler_color">#ddd2df</color>
+    <color name="pressure_recycler_color_blue">#3a3b3c</color>
+    <color name="blu_color_bck">#6088f7</color>
+    <color name="felles_gray_bck">#d3d6d9</color>
+    <color name="redcolor">#f80814</color>
+    <color name="spinner_background_color">#982230</color>
+    <color name="chartplscolor">#20ad03</color>
+    <color name="changedbackgroundcolor">#ffffff</color>
+    <color name="login_button_color">#20182a</color>
+    <color name="pressure_list_view">#e8dede</color>
+    <color name="systolic1">#072579</color>
+    <color name="systolic2">#af037b</color>
+    <color name="systolic3">#EF0606</color>
+
+</resources>

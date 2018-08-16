@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/medListe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_main"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginStart="8dp"
+        android:visibility="visible"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_sort1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/toogle_button_style_select_sort"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@color/gray_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+
+        android:text="@string/strek"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sort2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_sort5"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/toogle_button_style_select_sort"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@color/gray_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="@string/strek"
+
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sort6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sort4" />
+
+    <Button
+        android:id="@+id/button_sort3"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/toogle_button_style_select_sort"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@color/gray_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="@string/strek"
+
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sort4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sort2" />
+
+    <Button
+        android:id="@+id/button_sort2"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/toogle_button_style_select_sort"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@color/gray_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+
+        android:shadowRadius="8"
+        android:text="@string/strek"
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sort3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sort1" />
+
+    <Button
+        android:id="@+id/button_sort4"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/toogle_button_style_select_sort"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@color/gray_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="@string/strek"
+
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sort5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sort3" />
+
+    <Button
+        android:id="@+id/button_sort8"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/toogle_button_style_select_sort"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@color/gray_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="@string/strek"
+
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sort9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sort7" />
+
+    <Button
+        android:id="@+id/button_sort7"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/toogle_button_style_select_sort"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@color/gray_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="@string/strek"
+
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sort8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sort6" />
+
+    <Button
+        android:id="@+id/button_sort6"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/toogle_button_style_select_sort"
+        android:fontFamily="@font/gruppo"
+        android:shadowColor="@color/gray_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="@string/strek"
+
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sort7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sort5" />
+
+    <Button
+        android:id="@+id/button_sort9"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/toogle_button_style_select_sort"
+        android:fontFamily="@font/gruppo"
+        android:gravity="center_horizontal|center"
+        android:shadowColor="@color/gray_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+
+        android:text="@string/star"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sort8" />
+
+
+</android.support.constraint.ConstraintLayout>

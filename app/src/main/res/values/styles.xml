@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--  parent="Theme.AppCompat.Light.DarkActionBar"> -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textSize">12dp</item>
+        <item name="colorPrimary">@android:color/darker_gray</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+      <!--  <item name="colorBlue">@color/pressure_recycler_color_blue</item> -->
+
+    </style>
+
+    <style name="mycornerstyle">
+        <item name="android:topLeftRadius">10dp</item>
+
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:fontFamily">@font/muli_extralight</item>
+        <item name="android:textSize">28dp</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--  <item name="colorBlue">@color/pressure_recycler_color_blue</item> -->
+
+    </style>
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:fontFamily">@font/muli_extralight</item>
+        <item name="android:textSize">14dp</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--  <item name="colorBlue">@color/pressure_recycler_color_blue</item> -->
+
+    </style>
+
+    <style name="Style1" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="drop_shadow">
+        <item name="android:shadowColor">@color/gray_color</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowRadius">60</item>
+    </style>
+
+
+    <style name="day_button_indikator">
+        <item name="android:textColor">@color/textwhite</item>
+
+    </style>
+    <style name="toogle_buttons">
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">10</item>
+
+        <item name="android:shadowColor">@color/trans</item>
+        <item name="android:textColor">@color/trans</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="min_max_buttons">
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:background">@drawable/action_button_delete</item>
+        <item name="android:shadowColor">@color/trans</item>
+
+    </style>
+
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="myfont">
+        <item name="android:fontFamily">font/sans-serif-smallcaps</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+</resources>

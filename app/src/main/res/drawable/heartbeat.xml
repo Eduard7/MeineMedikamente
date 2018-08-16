@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/puls_icon01"
+        android:duration="150"/>
+    <item android:drawable="@drawable/puls_icon02"
+        android:duration="150"/>
+    <item android:drawable="@drawable/puls_icon03"
+        android:duration="150"/>
+    <item android:drawable="@drawable/puls_icon04"
+        android:duration="150"/>
+    <item android:drawable="@drawable/puls_icon05"
+        android:duration="150"/>
+    <item android:drawable="@drawable/puls_icon06"
+        android:duration="150"/>
+    <item android:drawable="@drawable/puls_icon07"
+    android:duration="150"/>
+    <item android:drawable="@drawable/puls_icon08"
+        android:duration="150"/>
+
+
+
+
+</animation-list>

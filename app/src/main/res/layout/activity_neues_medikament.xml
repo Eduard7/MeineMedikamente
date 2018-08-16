@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/const_neu_background"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#5b6d36"
+    tools:context=".activities.NeuesMedikament"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <EditText
+        android:id="@+id/medikamentname"
+        style="@android:style/Widget.AutoCompleteTextView"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints="@string/medikamenttext_hint"
+        android:elevation="0dp"
+        android:ems="10"
+        android:fontFamily="@font/open_sans"
+        android:hint="@string/medikamenttext_hint"
+        android:imeOptions="actionDone"
+        android:inputType="text|textCapCharacters|textPersonName"
+        android:paddingLeft="8sp"
+        android:paddingRight="8sp"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="240dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/taglich"
+
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/toggleVormittag"
+
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+
+
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/muli_extralight"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/dosierung"
+        android:textAllCaps="false"
+        android:textColor="@android:color/transparent"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group_mahlzeit" />
+
+    <ToggleButton
+        android:id="@+id/toggleAbend"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/muli_extralight"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:textAllCaps="false"
+        android:textColor="@android:color/transparent"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewEve"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group_mahlzeit" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="-13dp" />
+
+    <Button
+        android:id="@+id/buttonsave"
+
+        android:layout_width="69dp"
+        android:layout_height="38dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/gruppo"
+        android:paddingLeft="4sp"
+        android:paddingRight="4sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+
+        <RadioButton
+            android:id="@+id/radio1x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+
+            android:buttonTint="@color/colorAccent"
+            android:checked="true"
+            android:fontFamily="@font/gruppo"
+            android:text="1x"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <RadioButton
+            android:id="@+id/radio2x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/colorAccent"
+            android:fontFamily="@font/gruppo"
+            android:text="2x"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/radio1x"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <RadioButton
+            android:id="@+id/radio3x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+
+            android:buttonTint="@color/colorAccent"
+            android:fontFamily="@font/gruppo"
+            android:text="3x"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/radio2x"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <RadioButton
+            android:id="@+id/radio4x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+
+            android:buttonTint="@color/colorAccent"
+            android:fontFamily="@font/gruppo"
+            android:text="@string/radio4"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/radio3x"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <RadioButton
+            android:id="@+id/radio5x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+
+            android:buttonTint="@color/colorAccent"
+            android:fontFamily="@font/gruppo"
+            android:text="@string/radio5"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/radio4x"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/neues"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="14sp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_stk_tbl"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#ffff00"
+
+        android:entries="@array/antall"
+        android:gravity="center"
+        android:popupBackground="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentname" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_marginTop="240dp"
+        android:background="@color/gray_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ToggleButton
+        android:id="@+id/toggleNacht"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+
+        android:fontFamily="@font/gruppo"
+        android:textAllCaps="false"
+        android:textColor="@android:color/transparent"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewNight"
+        app:layout_constraintTop_toBottomOf="@+id/toggleAbend" />
+
+    <ImageView
+        android:id="@+id/imageViewWeckerN"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/die"
+        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_alarm_add_black_24dp" />
+
+    <ToggleButton
+        android:id="@+id/togglesetalarm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="@android:color/transparent"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewWeckerN" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_mahlzeit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/radioButtonV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorAccent"
+            android:checked="false"
+            android:fontFamily="@font/gruppo"
+            android:text="@string/vor"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="V" />
+
+        <RadioButton
+            android:id="@+id/radioButtonN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorAccent"
+            android:fontFamily="@font/gruppo"
+            android:text="@string/nach"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="N" />
+
+        <RadioButton
+            android:id="@+id/radioButtonZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorAccent"
+            android:fontFamily="@font/gruppo"
+            android:text="@string/zum"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Z" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAdLib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorAccent"
+            android:checked="true"
+            android:fontFamily="@font/gruppo"
+            android:text="@string/adlib"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/mahlzeit"
+
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <Spinner
+        android:id="@+id/spinner_medikament"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#ffff00"
+        android:entries="@array/medikamentutvalg"
+        android:popupBackground="@color/colorPrimaryDark"
+        app:layout_constraintStart_toEndOf="@+id/spinner_medikament_text"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentname" />
+
+    <ImageView
+        android:id="@+id/imageViewMorning"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+
+        android:contentDescription="@string/die"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toggleVormittag"
+        app:srcCompat="@drawable/round_toggle_off_icon" />
+
+    <ImageView
+        android:id="@+id/imageViewNoon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"
+
+        android:contentDescription="@string/die"
+        app:layout_constraintBottom_toBottomOf="@+id/toggleMittag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/round_toggle_off_icon" />
+
+    <ImageView
+        android:id="@+id/imageViewEve"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+
+        android:contentDescription="@string/die"
+        app:layout_constraintBottom_toBottomOf="@+id/toggleAbend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/round_toggle_off_icon" />
+
+    <ImageView
+        android:id="@+id/imageViewNight"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+
+        android:contentDescription="@string/die"
+        app:layout_constraintBottom_toBottomOf="@+id/toggleNacht"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/round_toggle_off_icon" />
+
+    <TextView
+        android:id="@+id/textView13blink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/quantity"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_medikament_text" />
+
+    <EditText
+        android:id="@+id/editQuantity"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:fontFamily="@font/gruppo"
+        android:hint="@string/quantity"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView13blink"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/help_icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/die"
+        app:layout_constraintBottom_toBottomOf="@+id/medikamentname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/help_1" />
+
+    <ImageView
+        android:id="@+id/help_icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/die"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinner_medikament"
+        app:srcCompat="@drawable/help_2" />
+
+    <ImageView
+        android:id="@+id/help_icon3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/die"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinner_stk_tbl"
+        app:srcCompat="@drawable/help_3" />
+
+    <ImageView
+        android:id="@+id/help_icon4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/die"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13blink"
+        app:srcCompat="@drawable/help_4" />
+
+    <ImageView
+        android:id="@+id/help_icon5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/die"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup2"
+        app:srcCompat="@drawable/help_5" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:contentDescription="@string/die"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonsave"
+        app:layout_constraintEnd_toEndOf="@+id/buttonsave"
+        app:layout_constraintStart_toStartOf="@+id/buttonsave"
+        app:srcCompat="@drawable/round_save_icon" />
+
+    <ToggleButton
+        android:id="@+id/toggleMittag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="@+id/imageViewNoon"
+        app:layout_constraintTop_toBottomOf="@+id/toggleVormittag" />
+
+    <TextView
+        android:id="@+id/toggleVormittag_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/fruh"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewMorning"
+        app:layout_constraintTop_toTopOf="@+id/toggleVormittag" />
+
+    <TextView
+        android:id="@+id/toggleMittag_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/mittag"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewNoon"
+        app:layout_constraintTop_toTopOf="@+id/toggleMittag" />
+
+    <TextView
+        android:id="@+id/toggleAbend_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/abend"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewEve"
+        app:layout_constraintTop_toTopOf="@+id/toggleAbend" />
+
+    <TextView
+        android:id="@+id/toggleNacht_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/nacht"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewNight"
+        app:layout_constraintTop_toTopOf="@+id/toggleNacht" />
+
+    <ImageView
+        android:id="@+id/health_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:alpha="0.33"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/togglesetalarm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/medikament_logo_b" />
+
+    <TextView
+        android:id="@+id/spinner_medikament_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/med_salbe"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentname" />
+
+    <TextView
+        android:id="@+id/spinner_stk_tbl_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="@string/med_pille"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/spinner_stk_tbl"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentname" />
+
+    <TextView
+        android:id="@+id/dosis_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/dosis"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13blink" />
+
+    <ImageView
+        android:id="@+id/more_less"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:srcCompat="@drawable/ic_expand_less_black_24dp" />
+
+</android.support.constraint.ConstraintLayout>

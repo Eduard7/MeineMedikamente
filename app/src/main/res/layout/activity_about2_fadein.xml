@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_main_fadein"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/felles_gray_bck"
+    tools:context=".activities.About2Activity">
+
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="299dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="89dp"
+        android:background="#0e7698"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/gruppo"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/die"
+        android:focusable="true"
+        android:fontFamily="@font/muli_extralight"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="@string/copyright"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="@+id/about_text"
+        app:layout_constraintStart_toStartOf="@+id/about_text"
+        app:layout_constraintTop_toBottomOf="@+id/about_text" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/dia"
+        app:layout_constraintBottom_toTopOf="@+id/about_text"
+        app:layout_constraintEnd_toStartOf="@+id/about_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/about_text"
+        app:layout_constraintTop_toBottomOf="@+id/about_text"
+        app:srcCompat="@drawable/medikament_logo_b" />
+
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/muli_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="1200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/round_back_icon" />
+
+    <ImageView
+        android:id="@+id/colorpicker01"
+
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+
+
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:clickable="true"
+
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/copyright"
+        app:srcCompat="@drawable/farge01" />
+
+    <ImageView
+        android:id="@+id/colorpicker02"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toStartOf="@+id/colorpicker03"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/colorpicker01"
+        app:layout_constraintTop_toBottomOf="@+id/copyright"
+        app:srcCompat="@drawable/farge02" />
+
+    <ImageView
+        android:id="@+id/colorpicker03"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toStartOf="@+id/colorpicker04"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/colorpicker02"
+        app:layout_constraintTop_toBottomOf="@+id/copyright"
+        app:srcCompat="@drawable/farge03" />
+
+    <ImageView
+        android:id="@+id/colorpicker04"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toStartOf="@+id/colorpicker05"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/colorpicker03"
+        app:layout_constraintTop_toBottomOf="@+id/copyright"
+        app:srcCompat="@drawable/farge04" />
+
+    <ImageView
+        android:id="@+id/colorpicker05"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toStartOf="@+id/colorpicker06"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/colorpicker04"
+        app:layout_constraintTop_toBottomOf="@+id/copyright"
+        app:srcCompat="@drawable/farge05" />
+
+    <ImageView
+        android:id="@+id/colorpicker06"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:clickable="true"
+        android:focusable="true"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/colorpicker05"
+        app:layout_constraintTop_toBottomOf="@+id/copyright"
+        app:srcCompat="@drawable/farge06" />
+
+    <Button
+        android:id="@+id/buttondisclaimer"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        android:text="@string/disclaimer"
+        app:layout_constraintBottom_toTopOf="@+id/about_text"
+        app:layout_constraintEnd_toEndOf="@+id/about_text"
+        app:layout_constraintStart_toStartOf="@+id/about_text" />
+
+</android.support.constraint.ConstraintLayout>

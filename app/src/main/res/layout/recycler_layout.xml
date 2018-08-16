@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/medid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginStart="2dp"
+    android:background="@drawable/log_recyclerview_radius"
+    android:paddingBottom="12dp">
+
+    <ImageView
+        android:id="@+id/imageViewTablette"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/die"
+        android:paddingTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/dosierungText"
+        app:layout_constraintEnd_toStartOf="@+id/medikamentText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blue_pille" />
+
+    <TextView
+        android:id="@+id/medikamentText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/muli_extralight"
+        android:shadowColor="#666666"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:textColor="@android:color/background_dark"
+
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/medikamentTellLabel"
+        app:layout_constraintStart_toEndOf="@+id/imageViewTablette"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Medikament tekst" />
+
+    <TextView
+        android:id="@+id/datumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/muli_extralight"
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dosierungText"
+        tools:text="Mon 12.12.2018" />
+
+    <TextView
+        android:id="@+id/uhrzeitText"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/muli_extralight"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/datumText"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="12:30" />
+
+    <TextView
+        android:id="@+id/dosierungText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/muli_bold"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medikamentText"
+        tools:text="Dosierung" />
+
+    <TextView
+        android:id="@+id/medikamentTellLabel"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/action_close_button"
+        android:fontFamily="@font/muli_extralight"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="000"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/medikamentText" />
+</android.support.constraint.ConstraintLayout>

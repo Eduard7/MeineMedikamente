@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="stundlig">
+        <item>Ein mal</item>
+        <item>Jede Stunde</item>
+        <item>Jede 2. Std</item>
+        <item>Jede 3. Std</item>
+        <item>Jede 4. Std</item>
+        <item>Jede 5. Std</item>
+        <item>Jede 6. Std</item>
+    </string-array>
+
+    <string-array name="antall">
+        <item>1 stk Tbl.</item>
+        <item>2 stk Tbl.</item>
+        <item>3 stk Tbl.</item>
+        <item>½ stk Tbl.</item>
+    </string-array>
+
+    <string-array name="pressuretime">
+        <item>Choose time..</item>
+        <item>Morning</item>
+        <item>Noon</item>
+        <item>Evening</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="medikamentutvalg">
+        <item>Tablette(n)</item>
+        <item>Zäpchen</item>
+        <item>Tropfen</item>
+        <item>Kapsel(n)</item>
+        <item>Spritze</item>
+        <item>Salbe</item>
+        <item>Ambulle(n)</item>
+        <item>Inhalator</item>
+        <item>Lösung</item>
+        <item>Sonstiges</item>
+        <item>Saft</item>
+        <item>Einheit(en)</item>
+        <item>Sonstiges</item>
+    </string-array>
+    <string-array name="zeit">
+        <item>06:00</item>
+        <item>06:30</item>
+        <item>07:00</item>
+        <item>07:30</item>
+        <item>08:00</item>
+        <item>08:30</item>
+        <item>09:00</item>
+        <item>09:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+        <item>18:30</item>
+        <item>19:00</item>
+        <item>19:30</item>
+        <item>20:00</item>
+
+
+
+
+    </string-array>
+
+</resources>
